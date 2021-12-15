@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5B7C03E276A44F200B82EDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B7C03D276A44F200B82EDA /* AppDelegate.swift */; };
+		F5B7C040276A44F200B82EDA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B7C03F276A44F200B82EDA /* SceneDelegate.swift */; };
+		F5B7C042276A44F200B82EDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B7C041276A44F200B82EDA /* ViewController.swift */; };
+		F5B7C045276A44F200B82EDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5B7C043276A44F200B82EDA /* Main.storyboard */; };
+		F5B7C047276A44F700B82EDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5B7C046276A44F700B82EDA /* Assets.xcassets */; };
+		F5B7C04A276A44F700B82EDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5B7C048276A44F700B82EDA /* LaunchScreen.storyboard */; };
+		F5B7C055276A44F800B82EDA /* Bayrak_Uygulamas_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B7C054276A44F800B82EDA /* Bayrak_Uygulamas_Tests.swift */; };
+		F5B7C05F276A44F800B82EDA /* Bayrak_Uygulamas_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B7C05E276A44F800B82EDA /* Bayrak_Uygulamas_UITests.swift */; };
+		F5B7C061276A44F800B82EDA /* Bayrak_Uygulamas_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B7C060276A44F800B82EDA /* Bayrak_Uygulamas_UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5B7C051276A44F800B82EDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5B7C032276A44F200B82EDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5B7C039276A44F200B82EDA;
+			remoteInfo = "Bayrak Uygulaması";
+		};
+		F5B7C05B276A44F800B82EDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5B7C032276A44F200B82EDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5B7C039276A44F200B82EDA;
+			remoteInfo = "Bayrak Uygulaması";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F5B7C03A276A44F200B82EDA /* Bayrak Uygulaması.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bayrak Uygulaması.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5B7C03D276A44F200B82EDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F5B7C03F276A44F200B82EDA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F5B7C041276A44F200B82EDA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F5B7C044276A44F200B82EDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5B7C046276A44F700B82EDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5B7C049276A44F700B82EDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5B7C04B276A44F700B82EDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5B7C050276A44F800B82EDA /* Bayrak UygulamasıTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bayrak UygulamasıTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5B7C054276A44F800B82EDA /* Bayrak_Uygulamas_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bayrak_Uygulamas_Tests.swift; sourceTree = "<group>"; };
+		F5B7C05A276A44F800B82EDA /* Bayrak UygulamasıUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bayrak UygulamasıUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5B7C05E276A44F800B82EDA /* Bayrak_Uygulamas_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bayrak_Uygulamas_UITests.swift; sourceTree = "<group>"; };
+		F5B7C060276A44F800B82EDA /* Bayrak_Uygulamas_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bayrak_Uygulamas_UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5B7C037276A44F200B82EDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5B7C04D276A44F800B82EDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5B7C057276A44F800B82EDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5B7C031276A44F200B82EDA = {
+			isa = PBXGroup;
+			children = (
+				F5B7C03C276A44F200B82EDA /* Bayrak Uygulaması */,
+				F5B7C053276A44F800B82EDA /* Bayrak UygulamasıTests */,
+				F5B7C05D276A44F800B82EDA /* Bayrak UygulamasıUITests */,
+				F5B7C03B276A44F200B82EDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5B7C03B276A44F200B82EDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5B7C03A276A44F200B82EDA /* Bayrak Uygulaması.app */,
+				F5B7C050276A44F800B82EDA /* Bayrak UygulamasıTests.xctest */,
+				F5B7C05A276A44F800B82EDA /* Bayrak UygulamasıUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5B7C03C276A44F200B82EDA /* Bayrak Uygulaması */ = {
+			isa = PBXGroup;
+			children = (
+				F5B7C03D276A44F200B82EDA /* AppDelegate.swift */,
+				F5B7C03F276A44F200B82EDA /* SceneDelegate.swift */,
+				F5B7C041276A44F200B82EDA /* ViewController.swift */,
+				F5B7C043276A44F200B82EDA /* Main.storyboard */,
+				F5B7C046276A44F700B82EDA /* Assets.xcassets */,
+				F5B7C048276A44F700B82EDA /* LaunchScreen.storyboard */,
+				F5B7C04B276A44F700B82EDA /* Info.plist */,
+			);
+			path = "Bayrak Uygulaması";
+			sourceTree = "<group>";
+		};
+		F5B7C053276A44F800B82EDA /* Bayrak UygulamasıTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5B7C054276A44F800B82EDA /* Bayrak_Uygulamas_Tests.swift */,
+			);
+			path = "Bayrak UygulamasıTests";
+			sourceTree = "<group>";
+		};
+		F5B7C05D276A44F800B82EDA /* Bayrak UygulamasıUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F5B7C05E276A44F800B82EDA /* Bayrak_Uygulamas_UITests.swift */,
+				F5B7C060276A44F800B82EDA /* Bayrak_Uygulamas_UITestsLaunchTests.swift */,
+			);
+			path = "Bayrak UygulamasıUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5B7C039276A44F200B82EDA /* Bayrak Uygulaması */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5B7C064276A44F800B82EDA /* Build configuration list for PBXNativeTarget "Bayrak Uygulaması" */;
+			buildPhases = (
+				F5B7C036276A44F200B82EDA /* Sources */,
+				F5B7C037276A44F200B82EDA /* Frameworks */,
+				F5B7C038276A44F200B82EDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bayrak Uygulaması";
+			productName = "Bayrak Uygulaması";
+			productReference = F5B7C03A276A44F200B82EDA /* Bayrak Uygulaması.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5B7C04F276A44F800B82EDA /* Bayrak UygulamasıTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5B7C067276A44F800B82EDA /* Build configuration list for PBXNativeTarget "Bayrak UygulamasıTests" */;
+			buildPhases = (
+				F5B7C04C276A44F800B82EDA /* Sources */,
+				F5B7C04D276A44F800B82EDA /* Frameworks */,
+				F5B7C04E276A44F800B82EDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5B7C052276A44F800B82EDA /* PBXTargetDependency */,
+			);
+			name = "Bayrak UygulamasıTests";
+			productName = "Bayrak UygulamasıTests";
+			productReference = F5B7C050276A44F800B82EDA /* Bayrak UygulamasıTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F5B7C059276A44F800B82EDA /* Bayrak UygulamasıUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5B7C06A276A44F800B82EDA /* Build configuration list for PBXNativeTarget "Bayrak UygulamasıUITests" */;
+			buildPhases = (
+				F5B7C056276A44F800B82EDA /* Sources */,
+				F5B7C057276A44F800B82EDA /* Frameworks */,
+				F5B7C058276A44F800B82EDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5B7C05C276A44F800B82EDA /* PBXTargetDependency */,
+			);
+			name = "Bayrak UygulamasıUITests";
+			productName = "Bayrak UygulamasıUITests";
+			productReference = F5B7C05A276A44F800B82EDA /* Bayrak UygulamasıUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5B7C032276A44F200B82EDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					F5B7C039276A44F200B82EDA = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					F5B7C04F276A44F800B82EDA = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = F5B7C039276A44F200B82EDA;
+					};
+					F5B7C059276A44F800B82EDA = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = F5B7C039276A44F200B82EDA;
+					};
+				};
+			};
+			buildConfigurationList = F5B7C035276A44F200B82EDA /* Build configuration list for PBXProject "Bayrak Uygulaması" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5B7C031276A44F200B82EDA;
+			productRefGroup = F5B7C03B276A44F200B82EDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5B7C039276A44F200B82EDA /* Bayrak Uygulaması */,
+				F5B7C04F276A44F800B82EDA /* Bayrak UygulamasıTests */,
+				F5B7C059276A44F800B82EDA /* Bayrak UygulamasıUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5B7C038276A44F200B82EDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5B7C04A276A44F700B82EDA /* LaunchScreen.storyboard in Resources */,
+				F5B7C047276A44F700B82EDA /* Assets.xcassets in Resources */,
+				F5B7C045276A44F200B82EDA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5B7C04E276A44F800B82EDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5B7C058276A44F800B82EDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5B7C036276A44F200B82EDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5B7C042276A44F200B82EDA /* ViewController.swift in Sources */,
+				F5B7C03E276A44F200B82EDA /* AppDelegate.swift in Sources */,
+				F5B7C040276A44F200B82EDA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5B7C04C276A44F800B82EDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5B7C055276A44F800B82EDA /* Bayrak_Uygulamas_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5B7C056276A44F800B82EDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5B7C05F276A44F800B82EDA /* Bayrak_Uygulamas_UITests.swift in Sources */,
+				F5B7C061276A44F800B82EDA /* Bayrak_Uygulamas_UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5B7C052276A44F800B82EDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5B7C039276A44F200B82EDA /* Bayrak Uygulaması */;
+			targetProxy = F5B7C051276A44F800B82EDA /* PBXContainerItemProxy */;
+		};
+		F5B7C05C276A44F800B82EDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5B7C039276A44F200B82EDA /* Bayrak Uygulaması */;
+			targetProxy = F5B7C05B276A44F800B82EDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5B7C043276A44F200B82EDA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5B7C044276A44F200B82EDA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5B7C048276A44F700B82EDA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5B7C049276A44F700B82EDA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5B7C062276A44F800B82EDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F5B7C063276A44F800B82EDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5B7C065276A44F800B82EDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Bayrak Uygulaması/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kerimismail.Bayrak-Uygulamas-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5B7C066276A44F800B82EDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Bayrak Uygulaması/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kerimismail.Bayrak-Uygulamas-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F5B7C068276A44F800B82EDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kerimismail.Bayrak-Uygulamas-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bayrak Uygulaması.app/Bayrak Uygulaması";
+			};
+			name = Debug;
+		};
+		F5B7C069276A44F800B82EDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kerimismail.Bayrak-Uygulamas-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bayrak Uygulaması.app/Bayrak Uygulaması";
+			};
+			name = Release;
+		};
+		F5B7C06B276A44F800B82EDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kerimismail.Bayrak-Uygulamas-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bayrak Uygulaması";
+			};
+			name = Debug;
+		};
+		F5B7C06C276A44F800B82EDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kerimismail.Bayrak-Uygulamas-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bayrak Uygulaması";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5B7C035276A44F200B82EDA /* Build configuration list for PBXProject "Bayrak Uygulaması" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5B7C062276A44F800B82EDA /* Debug */,
+				F5B7C063276A44F800B82EDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5B7C064276A44F800B82EDA /* Build configuration list for PBXNativeTarget "Bayrak Uygulaması" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5B7C065276A44F800B82EDA /* Debug */,
+				F5B7C066276A44F800B82EDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5B7C067276A44F800B82EDA /* Build configuration list for PBXNativeTarget "Bayrak UygulamasıTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5B7C068276A44F800B82EDA /* Debug */,
+				F5B7C069276A44F800B82EDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5B7C06A276A44F800B82EDA /* Build configuration list for PBXNativeTarget "Bayrak UygulamasıUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5B7C06B276A44F800B82EDA /* Debug */,
+				F5B7C06C276A44F800B82EDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5B7C032276A44F200B82EDA /* Project object */;
+}
