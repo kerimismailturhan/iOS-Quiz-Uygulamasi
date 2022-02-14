@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F548246627BAC4C700926E56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F548246527BAC4C700926E56 /* Main.storyboard */; };
 		F5B7C03E276A44F200B82EDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B7C03D276A44F200B82EDA /* AppDelegate.swift */; };
 		F5B7C040276A44F200B82EDA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B7C03F276A44F200B82EDA /* SceneDelegate.swift */; };
 		F5B7C042276A44F200B82EDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B7C041276A44F200B82EDA /* ViewController.swift */; };
-		F5B7C045276A44F200B82EDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5B7C043276A44F200B82EDA /* Main.storyboard */; };
 		F5B7C047276A44F700B82EDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5B7C046276A44F700B82EDA /* Assets.xcassets */; };
 		F5B7C04A276A44F700B82EDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5B7C048276A44F700B82EDA /* LaunchScreen.storyboard */; };
 		F5B7C055276A44F800B82EDA /* Bayrak_Uygulamas_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B7C054276A44F800B82EDA /* Bayrak_Uygulamas_Tests.swift */; };
@@ -47,11 +47,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F548246527BAC4C700926E56 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		F5B7C03A276A44F200B82EDA /* Bayrak Uygulaması.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bayrak Uygulaması.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5B7C03D276A44F200B82EDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5B7C03F276A44F200B82EDA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F5B7C041276A44F200B82EDA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F5B7C044276A44F200B82EDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F5B7C046276A44F700B82EDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5B7C049276A44F700B82EDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5B7C04B276A44F700B82EDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -133,9 +133,9 @@
 				F5B7C090276A4FCD00B82EDA /* bayrakquiz.sqlite */,
 				F5B7C03F276A44F200B82EDA /* SceneDelegate.swift */,
 				F5B7C041276A44F200B82EDA /* ViewController.swift */,
-				F5B7C043276A44F200B82EDA /* Main.storyboard */,
 				F5B7C06D276A45C700B82EDA /* QuizEkraniViewController.swift */,
 				F5B7C06F276A45D800B82EDA /* sonucEkraniViewController.swift */,
+				F548246527BAC4C700926E56 /* Main.storyboard */,
 				F5B7C094276A518800B82EDA /* Bayraklar.swift */,
 				F5B7C096276A523700B82EDA /* Bayraklardao.swift */,
 				F5E231F627935B1A001089EF /* FMDatabase.h */,
@@ -289,7 +289,7 @@
 				F5B7C091276A4FCD00B82EDA /* bayrakquiz.sqlite in Resources */,
 				F5B7C04A276A44F700B82EDA /* LaunchScreen.storyboard in Resources */,
 				F5B7C047276A44F700B82EDA /* Assets.xcassets in Resources */,
-				F5B7C045276A44F200B82EDA /* Main.storyboard in Resources */,
+				F548246627BAC4C700926E56 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,14 +362,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F5B7C043276A44F200B82EDA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F5B7C044276A44F200B82EDA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F5B7C048276A44F700B82EDA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
