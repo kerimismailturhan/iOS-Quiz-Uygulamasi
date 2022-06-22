@@ -4,4 +4,5 @@ This quiz app contains a total of three-screen, the welcome screen where a user 
 
 ![QuizApp](https://user-images.githubusercontent.com/61789935/153930124-6b130970-ae74-43fb-b93c-ed3f7bd179ca.png)
 
-![a](https://user-images.githubusercontent.com/61789935/175112061-b79341b6-56b6-4a2f-99e2-57f55b13a486.gif)
+https://user-images.githubusercontent.com/61789935/175113371-379da956-1afd-4480-bd80-eca22206edb5.mp4
+
